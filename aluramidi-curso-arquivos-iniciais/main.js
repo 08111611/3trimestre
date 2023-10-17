@@ -38,4 +38,50 @@ document.querySelector('.tecla_tom').onclick = tocaSomTom;}
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
+listaDeTeclas[0].onclick = tocaSomPom
 
+// Estrutura de repetição- Enquanto
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomPom;
+    contador= contador + 1;
+}
+
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomClap;
+    contador= contador + 1;
+}
+
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomTim;
+    contador= contador + 1;
+}
+
+    while(contador < listaDeTeclas.length) {
+        listaDeTeclas [contador].onclick = tocaSomPuff;
+        contador= contador + 1;
+}
+
+    while(contador < listaDeTeclas.length) {
+        listaDeTeclas [contador].onclick = tocaSomSplash;
+        contador= contador + 1;
+}
+
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomToim;
+    contador= contador + 1;
+}
+
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomPsh;
+    contador= contador + 1;
+}
+
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomTic;
+    contador= contador + 1;
+}
+
+while(contador < listaDeTeclas.length) {
+    listaDeTeclas [contador].onclick = tocaSomTom;
+    contador= contador + 1;
+}
